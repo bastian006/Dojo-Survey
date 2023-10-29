@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <h1>Submitted Info</h1>
+            <div class="result">
+                <div class="result-box">
+                    <h4>Name:</h4>
+                    <h4>Dojo Location:</h4>
+                    <h4>Favorite Language:</h4>
+                    <h4>Comment:</h4>
+                </div>
+                <div class="result-box">
+                    @{
+                    <h4>@ViewBag.Name</h4>
+                    <h4>@ViewBag.Location</h4>
+                    <h4>@ViewBag.Language</h4>
+                    <h4>@ViewBag.Comment</h4>
+                    }
+                </div>
+            </div>
+
+        
+            <div class="submitButton">
+                <button class="btn btn-primary">
+                    <a href="/">Go Back</a>
+                </button>
+            </div>
+           
+    </div>
+</body>
+
+</html>
